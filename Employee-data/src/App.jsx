@@ -213,7 +213,7 @@ function App() {
                                           <td>{emp.city}</td>
                                           <td>
                                             <button
-                                              className="btn btn-sm btn-outline-primary me-2"
+                                              className="btn btn-sm text-dark btn-outline-warning me-2"
                                               onClick={() => onEdit(emp.id)}
                                               title="Edit"
                                             >
@@ -240,8 +240,7 @@ function App() {
                       </div>
                     )}
                   </>
-                )}
-
+                )}    
               </div>
             </div>
           </div>
